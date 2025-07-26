@@ -21,6 +21,9 @@ jobs:
       - name: Set up Gradle
         uses: gradle/gradle-build-action@v2
 
+      - name: Make Gradle wrapper executable
+        run: chmod +x ./gradlew
+
       - name: Publish to Maven Server
         env:
           MAVEN_USERNAME: ${{ secrets.MAVEN_USERNAME }}
