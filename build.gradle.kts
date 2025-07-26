@@ -31,21 +31,21 @@ publishing {
             from(components["java"])
 
             groupId = "dev.comae"
-            artifactId = "dein-artifact-name"
+            artifactId = "jdaCommandManager"
             version = version
 
             pom {
-                name.set("Mein Projekt")
-                description.set("Beschreibung deines Projekts")
-                url.set("https://github.com/deinuser/deinprojekt")
+                name.set("JDA Command Manager")
+                description.set("A very simple command manager/helper for JDA")
+                url.set("https://github.com/C0MaE/JDACommandManager")
             }
         }
     }
 
     repositories {
         maven {
-            name = "MeinServer"
-            url = uri("https://mein.maven.server/repository/maven-releases/") // oder snapshot repo
+            name = "OwnServer"
+            url = uri("https://repo.comae.dev/repository/maven-releases/") // oder snapshot repo
 
             credentials {
                 username = findProperty("mavenUser") as String? ?: System.getenv("MAVEN_USERNAME")
