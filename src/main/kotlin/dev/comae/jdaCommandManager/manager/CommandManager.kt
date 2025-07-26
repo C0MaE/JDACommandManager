@@ -1,7 +1,7 @@
-package dev.comae.manager
+package dev.comae.jdaCommandManager.manager
 
-import dev.comae.commands.SlashCommand
-import dev.comae.listener.SlashCommandListener
+import dev.comae.jdaCommandManager.commands.SlashCommand
+import dev.comae.jdaCommandManager.listener.SlashCommandListener
 import net.dv8tion.jda.api.JDA
 import net.dv8tion.jda.api.requests.restaction.CommandListUpdateAction
 import org.reflections.Reflections

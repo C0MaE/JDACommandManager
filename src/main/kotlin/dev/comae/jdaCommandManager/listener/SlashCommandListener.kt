@@ -1,6 +1,6 @@
-package dev.comae.listener
+package dev.comae.jdaCommandManager.listener
 
-import dev.comae.commands.SlashCommand
+import dev.comae.jdaCommandManager.commands.SlashCommand
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent
 import net.dv8tion.jda.api.hooks.ListenerAdapter
 
