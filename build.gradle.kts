@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "dev.comae"
-version = "1.0"
+version = "1.1"
 
 val jdaVersion = "5.6.1"
 
